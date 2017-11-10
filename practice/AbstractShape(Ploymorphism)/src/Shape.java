@@ -26,7 +26,8 @@ public String toString()
 {
 	return String.format("%n%s: %s%n%s: %s%n", "Color", color, "IsFilled", filled);
 }
-		public abstract double getArea();
-		public abstract double getPerimeter();
+public abstract double getArea();
+		
+public abstract double getPerimeter();
 		
 }

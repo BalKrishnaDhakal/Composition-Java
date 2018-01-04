@@ -6,6 +6,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import java.sql.*;
 
@@ -97,6 +98,7 @@ public class FindGradeWithPreparedStatement extends Application
 			else
 			{
 				lblStatus.setText("Record Not Found.Please Try Again!");
+				lblStatus.setTextFill(Color.RED);
 				
 			}	
 			
